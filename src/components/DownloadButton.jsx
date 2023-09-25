@@ -27,7 +27,7 @@ const DownloadButton = () => {
       >
         {isDownloading ? (
           <>
-            <div className="w-full flex px-3 py-2 justify-between items-center bg-blue-600 rounded-full">
+            <div className="w-44 flex px-3 py-2 justify-between items-center bg-blue-600 rounded-full">
               <p className="animate-spin">
                 <BsArrowClockwise size={25} />
               </p>
@@ -35,7 +35,7 @@ const DownloadButton = () => {
             </div>
           </>
         ) : showLottie ? (
-          <div className="w-20 bg-transparent">
+          <div className="w-36 bg-transparent">
             <Lottie animationData={tick} />
           </div>
         ) : (
